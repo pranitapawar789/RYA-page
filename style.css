@@ -1,0 +1,208 @@
+html , body {
+    height: 100%;
+    font-family: 'Source Sans Pro';
+}
+nav{
+    background-color: #E6F2FF;
+    height: auto;
+   
+    font-size: small;
+    width: 100%;
+   
+}
+.news{
+    background-color: #C82D55;
+   
+}
+button{
+    width: 100%;
+}
+
+
+
+
+li{
+    padding: 10px;
+    color: #333E7D;
+    font-weight: 30px;
+}
+button{
+    float: left;
+    margin-right: 10px;
+}
+nav a{
+  
+    color: #222d71;
+    font-size: 15px;
+}
+
+
+/* 
+nav li:hover{
+    background-color: aliceblue;
+} */
+
+
+section{
+    height: 200px;
+    
+   
+   
+    
+}
+img {
+    height: 100px;
+    margin: 0 auto;
+   
+    
+} 
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+section img{
+    width: 60px;
+   
+
+}
+
+.social-media img{
+    width:20%;
+    height: 70%;
+    margin-right: 12px;
+    margin-top: 10px;
+
+}
+.container  button{
+    margin-top: 10px;
+    color:white;
+    border: none;
+    height: 70%;
+    width: 100%;
+}
+
+.search{
+    background-color: #325E8D;
+}
+
+
+
+.footer{
+    height:25%;
+    color: #222d71;
+    margin-top: 10px;
+    background-color: #E6F2FF;
+
+}
+.footer div {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer p {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.feature{
+    position: relative;
+}
+.feature p, h5{
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.navbar-toggler-icon {
+    background-image : url(data:image/svg+xml;charset=utf8,%3Csvg ) viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)'
+    
+
+}
+
+.slick-next{
+    right:0;
+}
+.slick-prev{
+    left:0;
+}
+.navbar-toggler{
+    width: auto;
+}
+
+
+.text-block {
+    position: absolute;
+    top:10px;
+    bottom: 20px;
+    right: 10px;
+    text-align: right;
+    width: 50%;
+    color: white;
+    padding: 10px;
+  }
+  .text-block button{
+      background-color: #C82D55;
+      margin:0 0 20px 0;
+      border-radius: 3px;
+      font-size: 16px;
+      padding: 10px 20px;
+      display: inline-block;
+      width: auto;
+      height: auto;
+    
+    
+  }
+  .visit{
+      border: none;
+      height: auto;
+  }
+
+footer img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.btn-info{
+    width: auto;
+    margin-right: 10px;
+    background-color: #CA2F58;
+}
+
+@media (max-width:768px){
+    .text-block{
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        height: auto;
+    }
+    .feature{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #0E6FB4;
+    }
+    .text-block button{
+        margin-left: 10px;
+    }
+ .news{
+    margin-top: 10px;
+    color:white;
+    border: none;
+    padding: 10px;
+}
+.search{
+    margin-top: 10px;
+    color:white;
+    border: none;
+    padding: 10px;
+}
+
+    
+}
+
